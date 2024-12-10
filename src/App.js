@@ -6,7 +6,7 @@ import Contact from './pages/Contact';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename='/react'>
       <div>
         <nav style={styles.nav}>
           <ul style={styles.menu}>
